@@ -1,0 +1,146 @@
+@import "night/mermaid.dark.css";
+@import "night/codeblock.dark.css";
+@import "night/sourcemode.dark.css";
+
+:root {
+    --bg-color: #0d0d0c;
+    --side-bar-bg-color: #fffffffffffffffefffffffffffffffefffffffffffffffd;
+    --text-color: #b9b9b9;
+
+    --select-text-bg-color: #56594e;
+
+    --item-hover-bg-color: #212120;
+    --control-text-color: #525252;
+    --control-text-hover-color: #b9b9b9;
+    --window-border: 1px solid #212120;
+
+    --active-file-bg-color: #212120;
+    --active-file-border-color: #92958a;
+
+    --primary-color: #92958a;
+
+    --active-file-text-color: #b9b9b9;
+    --item-hover-text-color: #b9b9b9;
+
+    --rawblock-edit-panel-bd: #fffffffffffffffefffffffffffffffefffffffffffffffd;
+
+    --search-select-bg-color: #56594e;
+}
+
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background: #0d0d0c;
+    background: var(--bg-color);
+    fill: currentColor;
+    line-height: 1.625rem;
+}
+
+#write {
+    max-width: 914px;
+}
+
+@media only screen and (min-width: 1400px) {
+    #write {
+        max-width: 1024px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    #write {
+        max-width: 1200px;
+    }
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea,
+div.code-tooltip-content {
+    color: #b9b9b9;
+    border-color: transparent;
+}
+
+div.code-tooltip,
+.md-hover-tip .md-arrow:after {
+    background: #fffffffffffffffefffffffffffffffefffffffffffffffd;
+}
+
+.native-window #md-notification {
+    border: 1px solid #525252;
+}
+
+.popover.bottom > .arrow:after {
+    border-bottom-color: #fffffffffffffffefffffffffffffffefffffffffffffffd;
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "Inter", "SF Pro", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+hr {
+    height: 2px;
+    border: 0;
+    margin: 24px 0 !important;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "SF Pro", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #b9b9b9;
+}
+
+/* Links */
+a {
+    color: #92958a;
+}
+
+/* Code */
+code, pre, .md-fences {
+    font-family: "JetBrainsMono Nerd Font", "Fira Code", monospace;
+    background: #fffffffffffffffefffffffffffffffefffffffffffffffd;
+}
+
+/* Inline code */
+code {
+    color: #868686;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid #92958a;
+    color: #525252;
+}
+
+/* Tables */
+table tr:nth-child(2n) {
+    background: #fffffffffffffffefffffffffffffffefffffffffffffffd;
+}
+
+table th {
+    background: #212120;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar-thumb {
+    background: #212120;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #525252;
+}
