@@ -11,17 +11,17 @@
         --color02: #0B0C0C;
         --color03: #434549;
         --color04: #434549;
-        --color05: #aaa8a4;
+        --color05: #fbfcff;
         --color06: #434549;
-        --color07: #CAC8C4;
-        --color08: #a43427;
-        --color09: #5C5852;
-        --color10: #CAC8C4;
-        --color11: #6E6A64;
-        --color12: #a97b7d;
-        --color13: #92958a;
+        --color07: #ed9a1d;
+        --color08: #f24331;
+        --color09: #ed9a1d;
+        --color10: #ed9a1d;
+        --color11: #434549;
+        --color12: #d4c783;
+        --color13: #666a6d;
         --color14: #aaa8a4;
-        --color15: #5C5852;
+        --color15: #ed9a1d;
     --base00: var(--color00);
     --base01: var(--color01);
     --base02: var(--color02);
@@ -246,7 +246,7 @@ div[class*="numberBadge"],
 span[class*="numberBadge"],
 div[class*="textBadge"],
 span[class*="textBadge"] {
-    background-color: var(--base04) !important;
+    background-color: var(--base0B) !important;
     color: var(--base00) !important;
 }
 
@@ -441,7 +441,7 @@ div.folderIconWrapper__48112 {
 
 /*--- New Messages Summary Bar Recolor -J--*/
 .newMessagesBar__0f481 {
-    background-color: var(--base08);
+    background-color: var(--base03);
 
     button.barButtonAlt__0f481 {
         background-color: var(--base02) !important;
