@@ -1,6 +1,56 @@
-@define-color selected-text #92958a;
-@define-color text #b9b9b9;
-@define-color base #0d0d0c;
-@define-color border #525252;
-@define-color foreground #b9b9b9;
-@define-color background #0d0d0c;
+@define-color selected-text #76786d;
+@define-color text #C8CCCE;
+@define-color base #0B0C0C;
+@define-color border #CAC8C4;
+@define-color foreground #C8CCCE;
+@define-color background #0B0C0C;
+
+
+window .box-wrapper {
+    background: alpha(@base, 1);           /* dark transparency */
+    border: 2px solid alpha(@border, 0.3);    /* visible border */
+    border-radius: 8px;
+    padding: 4px;
+    margin: 0;
+    box-shadow: 0 2px 12px alpha(black, 0.85);
+    backdrop-filter: blur(1px);
+    line-height: 10%;
+    color: @text;
+}
+
+window .search-container {
+    border-bottom: 2px solid alpha(#48191b, 1);    /* visible border */
+    border-radius: 6px;
+    padding: 4px 6px;
+    margin: 0x;
+    background: alpha(@base, 0.65);            /* slightly transparent */
+    box-shadow: inset 0 0 6px alpha(white, 0.0);
+    backdrop-filter: blur(1px);
+    line-height: 1em;
+    color: @selected-text;
+}
+
+window .search-container text { 
+    color: @text;
+    caret-color: @text;
+}
+
+
+window .input {
+    background: transparent;
+    color: @text;
+}
+
+window .preview {
+    border: 0px solid alpha(@border, 0);
+    border-radius: 8px;
+    background: alpha(@base, 0.5);
+    color: @text;
+    padding: 10px 10px 10px;
+    margin: 10px 0px 10px;
+    box-shadow: inset 0 0 8px alpha(white, 0);
+    backdrop-filter: blur(8px);
+    line-height: 1em;
+}
+
+
