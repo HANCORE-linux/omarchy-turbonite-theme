@@ -6,10 +6,10 @@
   --background-primary-alt: #0B0C0C;
   --background-secondary: #0B0C0C;
   --background-secondary-alt: #0B0C0C;
-  --text-normal: #CFCDC9;
+  --text-normal: #fbfcff;
 
   /* Selection colors */
-  --text-selection: #CFCDC9;
+  --text-selection: #fbfcff;
 
   /* Border color */
   --background-modifier-border: #666666;
@@ -17,24 +17,24 @@
   /* Semantic heading colors */
   --text-title-h1: #f24331;
   --text-title-h2: #6E6A64;
-  --text-title-h3: #5C5852;
-  --text-title-h4: #92958a;
+  --text-title-h3: #ed9a1d;
+  --text-title-h4: #666a6d;
   --text-title-h5: #aaa8a4;
   --text-title-h6: #aaa8a4;
 
   /* Links and accents */
-  --text-link: #92958a;
+  --text-link: #666a6d;
   --text-accent: #6E6A64;
   --text-accent-hover: #6E6A64;
   --interactive-accent: #6E6A64;
   --interactive-accent-hover: #6E6A64;
 
   /* Muted text */
-  --text-muted: color-mix(in srgb, #CFCDC9 70%, transparent);
-  --text-faint: color-mix(in srgb, #CFCDC9 55%, transparent);
+  --text-muted: color-mix(in srgb, #fbfcff 70%, transparent);
+  --text-faint: color-mix(in srgb, #fbfcff 55%, transparent);
 
   /* Code */
-  --code-normal: #a97b7d;
+  --code-normal: #d4c783;
 
   /* Errors and success */
   --text-error: #f24331;
@@ -42,14 +42,14 @@
   --text-success: #6E6A64;
 
   /* Tags */
-  --tag-color: #a97b7d;
+  --tag-color: #d4c783;
   --tag-background: #666666;
 
   /* Graph */
   --graph-line: #666666;
   --graph-node: #6E6A64;
-  --graph-node-focused: #92958a;
-  --graph-node-tag: #a97b7d;
+  --graph-node-focused: #666a6d;
+  --graph-node-tag: #d4c783;
   --graph-node-attachment: #6E6A64;
 }
 
@@ -63,16 +63,16 @@
 
 /* Code blocks */
 .markdown-rendered code {
-  color: #a97b7d;
+  color: #d4c783;
 }
 
 /* Syntax highlighting */
 .cm-s-obsidian span.cm-keyword { color: #f24331; }
 .cm-s-obsidian span.cm-string { color: #6E6A64; }
-.cm-s-obsidian span.cm-number { color: #5C5852; }
+.cm-s-obsidian span.cm-number { color: #ed9a1d; }
 .cm-s-obsidian span.cm-comment { color: #666666; }
-.cm-s-obsidian span.cm-operator { color: #92958a; }
-.cm-s-obsidian span.cm-def { color: #92958a; }
+.cm-s-obsidian span.cm-operator { color: #666a6d; }
+.cm-s-obsidian span.cm-def { color: #666a6d; }
 
 /* Links */
 .markdown-rendered a {
