@@ -1,58 +1,56 @@
 return {
-  {
-    "bjarneo/aether.nvim",
-    branch = "v3",
-    name = "aether",
-    priority = 1000,
-    opts = {
-      colors = {
-        bg         = "#0B0C0C",
-        dark_bg    = "#0B0C0C",
-        darker_bg  = "#0B0C0C",
-        lighter_bg = "#666666",
+	{
+		"bjarneo/aether.nvim",
+		branch = "v2",
+		name = "aether",
+		priority = 1000,
+		opts = {
+			transparent = false,
+			colors = {
+				-- Background colors
+				bg = "#0B0C0C",
+				bg_dark = "#0B0C0C",
+				bg_highlight = "#00A19C",
 
-        fg         = "#CFCDC9",
-        dark_fg    = "#666666",
-        light_fg   = "#CAC8C4",
-        bright_fg  = "#CFCDC9",
-        muted      = "#666666",
+				-- Foreground colors
+				-- fg: Object properties, builtin types, builtin variables, member access, default text
+				fg = "#CAC8C4",
+				-- fg_dark: Inactive elements, statusline, secondary text
+				fg_dark = "#434549",
+				-- comment: Line highlight, gutter elements, disabled states
+				comment = "#6E6A64",
 
-        red        = "#f24331",
-        yellow     = "#ed9a1d",
-        orange     = "#bf3c7c",
-        green      = "#6E6A64",
-        cyan       = "#d4c783",
-        blue       = "#999592",
-        purple     = "#aaa8a4",
-        brown      = "#bcbab6",
+				-- Accent colors
+				-- red: Errors, diagnostics, tags, deletions, breakpoints
+				red = "#f24331",
+				-- orange: Constants, numbers, current line number, git modifications
+				orange = "#bf3c7c",
+				-- yellow: Types, classes, constructors, warnings, numbers, booleans
+				yellow = "#ed9a1d",
+				-- green: Comments, strings, success states, git additions
+				green = "#ff631c",
+				-- cyan: Parameters, regex, preprocessor, hints, properties
+				cyan = "#d4c783",
+				-- blue: Functions, keywords, directories, links, info diagnostics
+				blue = "#666a6d",
+				-- purple: Storage keywords, special keywords, identifiers, namespaces
+				purple = "#aaa8a4",
+				-- magenta: Function declarations, exception handling, tags
+				magenta = "#EBD698",
+			},
+		},
+		config = function(_, opts)
+			require("aether").setup(opts)
+			vim.cmd.colorscheme("aether")
 
-        bright_red    = "#c63222",
-        bright_yellow = "#e3b26a",
-        bright_green  = "#00A19B",
-        bright_cyan   = "#bfbd70",
-        bright_blue   = "#91959b",
-        bright_purple = "#55575b",
-
-        accent               = "#6E6A64",
-        cursor               = "#544f51",
-        foreground           = "#CFCDC9",
-        background           = "#0B0C0C",
-        selection             = "#CFCDC9",
-        selection_foreground = "#0B0C0C",
-        selection_background = "#CFCDC9",
-      },
-    },
-    -- set up hot reload
-    config = function(_, opts)
-      require("aether").setup(opts)
-      vim.cmd.colorscheme("aether")
-      require("aether.hotreload").setup()
-    end,
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "aether",
-    },
-  },
+			-- Enable hot reload
+			require("aether.hotreload").setup()
+		end,
+	},
+	{
+		"LazyVim/LazyVim",
+		opts = {
+			colorscheme = "aether",
+		},
+	},
 }
