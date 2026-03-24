@@ -1,5 +1,5 @@
-@define-color selected-text #76786d;
-@define-color text #C8CCCE;
+@define-color selected-text #ed9a1d;
+@define-color text #666a6d;
 @define-color base #0B0C0C;
 @define-color border #CAC8C4;
 @define-color foreground #C8CCCE;
@@ -19,7 +19,7 @@ window .box-wrapper {
 }
 
 window .search-container {
-    border-bottom: 2px solid alpha(#48191b, 1);    /* visible border */
+    border-bottom: 2px solid alpha(#f24331, 1);    /* visible border */
     border-radius: 6px;
     padding: 4px 6px;
     margin: 0x;
