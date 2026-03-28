@@ -28,7 +28,7 @@ modal_fg = '#fbfcff'
 cursor = '#fbfcff'
 correct = '#6E6A64'
 error = '#f24331'
-hint = '#d4c783'
+hint = '#EBD698'
 cancel = '#f24331'
 gradient_color = ['#0B0C0C', "#666666"]
 
