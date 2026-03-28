@@ -34,7 +34,7 @@
   --text-faint: color-mix(in srgb, #fbfcff 55%, transparent);
 
   /* Code */
-  --code-normal: #d4c783;
+  --code-normal: #EBD698;
 
   /* Errors and success */
   --text-error: #f24331;
@@ -42,14 +42,14 @@
   --text-success: #6E6A64;
 
   /* Tags */
-  --tag-color: #d4c783;
+  --tag-color: #EBD698;
   --tag-background: #666666;
 
   /* Graph */
   --graph-line: #666666;
   --graph-node: #6E6A64;
   --graph-node-focused: #666a6d;
-  --graph-node-tag: #d4c783;
+  --graph-node-tag: #EBD698;
   --graph-node-attachment: #6E6A64;
 }
 
@@ -63,7 +63,7 @@
 
 /* Code blocks */
 .markdown-rendered code {
-  color: #d4c783;
+  color: #EBD698;
 }
 
 /* Syntax highlighting */
