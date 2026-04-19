@@ -6,7 +6,7 @@
 
 	/* destructive-action buttons */
     --adw-destructive-bg-rgb: 242, 67, 49 !important;
-    --adw-destructive-fg-rgb: 251, 252, 255 !important;
+    --adw-destructive-fg-rgb: 234, 233, 227 !important;
     --adw-destructive-rgb: 242, 67, 49 !important;
 
 	/* Levelbars, entries, labels and infobars. These don't need text colors */
@@ -25,16 +25,16 @@
 
 	/* Window */
     --adw-window-bg-rgb: 11, 12, 12 !important;
-    --adw-window-fg-rgb: 251, 252, 255 !important;
+    --adw-window-fg-rgb: 234, 233, 227 !important;
 
 	/* Views - e.g. text view or tree view */
     --adw-view-bg-rgb: 11, 12, 12 !important;
-    --adw-view-fg-rgb: 251, 252, 255 !important;
+    --adw-view-fg-rgb: 234, 233, 227 !important;
 
 	/* Header bar, search bar, tab bar */
     --adw-headerbar-bg-rgb: 11, 12, 12 !important;
-    --adw-headerbar-fg-rgb: 251, 252, 255 !important;
-    --adw-headerbar-border-rgb: 102, 102, 102 !important;
+    --adw-headerbar-fg-rgb: 234, 233, 227 !important;
+    --adw-headerbar-border-rgb: 57, 62, 62 !important;
     --adw-headerbar-backdrop-rgb: 11, 12, 12 !important;
     --adw-headerbar-shade-rgb: 0, 0, 0 !important;
     --adw-headerbar-shade-a: 0.36 !important;
@@ -43,13 +43,13 @@
 
 	/* Split pane views */
     --adw-sidebar-bg-rgb: 11, 12, 12 !important;
-    --adw-sidebar-fg-rgb: 251, 252, 255 !important;
-    --adw-sidebar-backdrop-rgb: 102, 102, 102 !important;
+    --adw-sidebar-fg-rgb: 234, 233, 227 !important;
+    --adw-sidebar-backdrop-rgb: 57, 62, 62 !important;
     --adw-sidebar-shade-rgb: 0, 0, 0 !important;
     --adw-sidebar-shade-a: 0.36 !important;
     --adw-secondary-sidebar-bg-rgb: 11, 12, 12 !important;
-    --adw-secondary-sidebar-fg-rgb: 251, 252, 255 !important;
-    --adw-secondary-sidebar-backdrop-rgb: 102, 102, 102 !important;
+    --adw-secondary-sidebar-fg-rgb: 234, 233, 227 !important;
+    --adw-secondary-sidebar-backdrop-rgb: 57, 62, 62 !important;
     --adw-secondary-sidebar-shade-rgb: 0, 0, 0 !important;
     --adw-secondary-sidebar-shade-a: 0.36 !important;
 
@@ -62,11 +62,11 @@
 
 	/* Dialogs */
     --adw-dialog-bg-rgb: 11, 12, 12 !important;
-    --adw-dialog-fg-rgb: 251, 252, 255 !important;
+    --adw-dialog-fg-rgb: 234, 233, 227 !important;
 
     /* Popovers */
     --adw-popover-bg-rgb: 11, 12, 12 !important;
-    --adw-popover-fg-rgb: 251, 252, 255 !important;
+    --adw-popover-fg-rgb: 234, 233, 227 !important;
     --adw-popover-shade-rgb: 0, 0, 0 !important;
     --adw-popover-shade-a: 0.36 !important;
 

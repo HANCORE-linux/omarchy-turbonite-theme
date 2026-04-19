@@ -1,5 +1,5 @@
     @define-color background     #0B0C0C;
-    @define-color foreground     #fbfcff;
+    @define-color foreground     #eae9e3;
     @define-color black          #0B0C0C;
     @define-color red            #f24331;
     @define-color green          #6E6A64;
@@ -8,14 +8,14 @@
     @define-color magenta        #aaa8a4;
     @define-color cyan           #EBD698;
     @define-color white          #CAC8C4;
-    @define-color bright_black   #666666;
+    @define-color bright_black   #393e3e;
     @define-color bright_red     #f24331;
     @define-color bright_green   #6E6A64;
     @define-color bright_yellow  #ed9a1d;
     @define-color bright_blue    #666a6d;
     @define-color bright_magenta #aaa8a4;
     @define-color bright_cyan    #EBD698;
-    @define-color bright_white   #434549;
+    @define-color bright_white   #f9f9f8;
 
     @define-color accent_bg_color @blue;
     @define-color accent_fg_color @background;
