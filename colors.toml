@@ -21,11 +21,11 @@ color6 = "#EBD698"
 color7 = "#CAC8C4"
 
 # Bright colors (ANSI 8-15)
-color8 = "#9a9697"
+color8 = "#393e3e"
 color9 = "#f24331"
 color10 = "#6E6A64"
 color11 = "#ed9a1d"
 color12 = "#666a6d"
 color13 = "#aaa8a4"
 color14 = "#EBD698"
-color15 = "#434549"
+color15 = "#f9f9f8"
