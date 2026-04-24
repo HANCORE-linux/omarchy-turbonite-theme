@@ -38,11 +38,14 @@ return {
 				-- magenta: Function declarations, exception handling, tags
 				magenta = "#EBD698",
 			},
-			on_highlights = function(hl, c)
-                -- If it's "too dark", use a lighter grey like #2a2a2a
-                hl.CursorLine = { bg = "#171818" } 
-                hl.CursorLineNr = { fg = c.orange, bold = true }
-            end,
+on_highlights = function(hl, c)
+    -- Your existing lines
+    hl.CursorLine = { bg = "#171818" } 
+    hl.CursorLineNr = { fg = c.orange, bold = true }
+    hl["@markup.raw.markdown_inline"] = { bg = "NONE" }
+    hl["@markup.raw.block.markdown"] = { bg = "NONE" }
+	hl["@markup.quote"] = { bg = "NONE" }
+   end,
 		},
 		config = function(_, opts)
 			require("aether").setup(opts)
