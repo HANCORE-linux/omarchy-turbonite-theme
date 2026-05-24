@@ -16,7 +16,19 @@ hl.config({
   },
   group = {
     col = {
-      border_active = activeBorderColor,
+      border_active = {
+        colors = { "rgba(48191bee)", "rgba(666a6dee)", "rgba(37393Aee)", "rgba(0B0C0Cee)", "rgba(48191bee)" },
+        angle = 45,
+      },
+      border_inactive = "rgb(131415)",
+    },
+    groupbar = {
+      col = {
+        active = "rgba(48191b99)",
+        inactive = "rgba(13141588)",
+      },
+      text_color = "rgb(ed9a1d)",
+      text_color_inactive = "rgba(EBD698ee)",
     },
   },
   decoration = {
