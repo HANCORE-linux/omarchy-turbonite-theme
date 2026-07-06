@@ -18,12 +18,12 @@
   --text-title-h1: #f24331;
   --text-title-h2: #6E6A64;
   --text-title-h3: #ed9a1d;
-  --text-title-h4: #666a6d;
-  --text-title-h5: #aaa8a4;
-  --text-title-h6: #aaa8a4;
+  --text-title-h4: #847B4E;
+  --text-title-h5: #A7A483;
+  --text-title-h6: #A7A483;
 
   /* Links and accents */
-  --text-link: #666a6d;
+  --text-link: #847B4E;
   --text-accent: #6E6A64;
   --text-accent-hover: #6E6A64;
   --interactive-accent: #6E6A64;
@@ -48,7 +48,7 @@
   /* Graph */
   --graph-line: #666666;
   --graph-node: #6E6A64;
-  --graph-node-focused: #666a6d;
+  --graph-node-focused: #847B4E;
   --graph-node-tag: #EBD698;
   --graph-node-attachment: #6E6A64;
 }
@@ -71,8 +71,8 @@
 .cm-s-obsidian span.cm-string { color: #6E6A64; }
 .cm-s-obsidian span.cm-number { color: #ed9a1d; }
 .cm-s-obsidian span.cm-comment { color: #666666; }
-.cm-s-obsidian span.cm-operator { color: #666a6d; }
-.cm-s-obsidian span.cm-def { color: #666a6d; }
+.cm-s-obsidian span.cm-operator { color: #847B4E; }
+.cm-s-obsidian span.cm-def { color: #847B4E; }
 
 /* Links */
 .markdown-rendered a {

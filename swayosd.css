@@ -1,5 +1,5 @@
 @define-color background-color #0B0C0C;
-@define-color border-color #37393A;
+@define-color border-color #31363A;
 @define-color label #ed9a1d;
 @define-color image #eae9e3;
 @define-color progress #ed9a1d;
@@ -26,4 +26,14 @@ window:backdrop #container {
     background-clip: padding-box;
     box-shadow: 2px 2px 9px 0px rgba(22, 22, 22, 1);
 
+}
+
+progressbar trough {
+    background-color: alpha(@border-color, 0.35);
+    border: 1px solid alpha(@progress, 0.25);
+    border-radius: 6px;
+}
+
+progress {
+    border-radius: 6px;
 }

@@ -1,8 +1,8 @@
 :root {
     /* The main accent color and the matching text value */
-    --adw-accent-bg-rgb: 102, 106, 109 !important;
+    --adw-accent-bg-rgb: 132, 123, 78 !important;
     --adw-accent-fg-rgb: 11, 12, 12 !important;
-    --adw-accent-rgb: 102, 106, 109 !important;
+    --adw-accent-rgb: 132, 123, 78 !important;
 
 	/* destructive-action buttons */
     --adw-destructive-bg-rgb: 242, 67, 49 !important;
@@ -34,7 +34,7 @@
 	/* Header bar, search bar, tab bar */
     --adw-headerbar-bg-rgb: 11, 12, 12 !important;
     --adw-headerbar-fg-rgb: 234, 233, 227 !important;
-    --adw-headerbar-border-rgb: 57, 62, 62 !important;
+    --adw-headerbar-border-rgb: 49, 54, 58 !important;
     --adw-headerbar-backdrop-rgb: 11, 12, 12 !important;
     --adw-headerbar-shade-rgb: 0, 0, 0 !important;
     --adw-headerbar-shade-a: 0.36 !important;
@@ -44,12 +44,12 @@
 	/* Split pane views */
     --adw-sidebar-bg-rgb: 11, 12, 12 !important;
     --adw-sidebar-fg-rgb: 234, 233, 227 !important;
-    --adw-sidebar-backdrop-rgb: 57, 62, 62 !important;
+    --adw-sidebar-backdrop-rgb: 49, 54, 58 !important;
     --adw-sidebar-shade-rgb: 0, 0, 0 !important;
     --adw-sidebar-shade-a: 0.36 !important;
     --adw-secondary-sidebar-bg-rgb: 11, 12, 12 !important;
     --adw-secondary-sidebar-fg-rgb: 234, 233, 227 !important;
-    --adw-secondary-sidebar-backdrop-rgb: 57, 62, 62 !important;
+    --adw-secondary-sidebar-backdrop-rgb: 49, 54, 58 !important;
     --adw-secondary-sidebar-shade-rgb: 0, 0, 0 !important;
     --adw-secondary-sidebar-shade-a: 0.36 !important;
 

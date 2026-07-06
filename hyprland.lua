@@ -5,7 +5,7 @@ hl.config({
   general = {
     col = {
       active_border = {
-        colors = { "rgba(48191bee)", "rgba(666a6dee)", "rgba(37393Aee)", "rgba(0B0C0Cee)", "rgba(48191bee)" },
+        colors = { "rgba(48191bee)", "rgba(847B4Eee)", "rgba(31363Aee)", "rgba(0B0C0Cee)", "rgba(48191bee)" },
         angle = 45,
       },
       inactive_border = "rgb(131415)",
@@ -17,7 +17,7 @@ hl.config({
   group = {
     col = {
       border_active = {
-        colors = { "rgba(48191bee)", "rgba(666a6dee)", "rgba(37393Aee)", "rgba(0B0C0Cee)", "rgba(48191bee)" },
+        colors = { "rgba(48191bee)", "rgba(847B4Eee)", "rgba(31363Aee)", "rgba(0B0C0Cee)", "rgba(48191bee)" },
         angle = 45,
       },
       border_inactive = "rgb(131415)",
