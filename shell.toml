@@ -1,0 +1,148 @@
+# Omarchy Quattro surfaces for Turbonite.
+# Opaque black panels, a multi-metal active frame, and a restrained graphite
+# selection with amber text preserve the theme's performance-focused character.
+
+[bar]
+background = "#0B0C0C"
+background-alpha = 1.0
+text = "#EAE9E3"
+active = "#ED9A1D"
+scale-with-font = true
+size-horizontal = 26
+size-vertical = 28
+
+[hyprland]
+active-border = "rgba(48191bee) rgba(847b4eee) rgba(31363aee) rgba(0b0c0cee) rgba(48191bee) 45deg"
+active-border-foreground = "#EAE9E3"
+
+[controls]
+normal-color = "#31363A"
+normal-fill-alpha = 0.10
+normal-border-width = 1
+normal-border-alpha = 0.42
+
+hover-cursor-color = "#8E3A59"
+hover-cursor-fill-alpha = 0.14
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.58
+
+focus-color = "#ED9A1D"
+focus-fill-alpha = 0.16
+focus-border-width = 1
+focus-border-alpha = 0.88
+
+selected-color = "#847B4E"
+selected-fill-alpha = 0.20
+selected-border-width = 1
+selected-border-alpha = 0.54
+
+pressed-color = "#F24331"
+pressed-fill-alpha = 0.24
+selection-color = "#EAE9E3"
+selection-fill-alpha = 0.36
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+xs = 2
+md = 4
+control-padding-y = 5
+panel-padding = 10
+
+[font]
+base-size = 12
+heading = 16
+icon-large = 18
+
+[popups]
+background = "#0B0C0C"
+background-alpha = 1.0
+text = "#EAE9E3"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+
+[tooltip]
+background = "#0B0C0C"
+background-alpha = 0.98
+text = "#EAE9E3"
+border = "#37393A"
+border-alpha = 1.0
+border-width = 1
+
+[notifications]
+background = "#0B0C0C"
+background-alpha = 1.0
+text = "#EAE9E3"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+countdown = "#ED9A1D"
+
+[launcher]
+background = "#0B0C0C"
+background-alpha = 1.0
+text = "#666A6D"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+scrim = "#0B0C0C"
+scrim-alpha = 0.0
+selected-background = "#31363A"
+selected-background-alpha = 0.80
+selected-text = "#ED9A1D"
+selected-border = "#847B4E"
+selected-border-alpha = 0.0
+selected-border-width = 0
+
+[menu]
+background = "#0B0C0C"
+background-alpha = 1.0
+text = "#666A6D"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+scrim = "#0B0C0C"
+scrim-alpha = 0.0
+selected-background = "#31363A"
+selected-background-alpha = 0.80
+selected-text = "#ED9A1D"
+selected-border = "#847B4E"
+selected-border-alpha = 0.0
+selected-border-width = 0
+
+[polkit]
+background = "#0B0C0C"
+background-alpha = 1.0
+text = "#EAE9E3"
+text-error = "#F24331"
+border = "hyprland.active-border"
+border-error = "#F24331"
+border-alpha = 1.0
+border-width = 2
+scrim = "#0B0C0C"
+scrim-alpha = 0.54
+accent = "#ED9A1D"
+
+[lock]
+background = "#0B0C0C"
+background-alpha = 1.0
+text = "#CAC8C4"
+placeholder = "#CAC8C4B3"
+text-error = "#F24331"
+border = "hyprland.active-border"
+border-active = "hyprland.active-border"
+border-error = "#F24331"
+border-alpha = 1.0
+border-width = 2
+selection = "#ED9A1D"
+selection-alpha = 0.40
+
+[image-picker]
+scrim = "#0B0C0C"
+scrim-alpha = 0.54
+text = "#EAE9E3"
+selected-border = "#ED9A1D"
+selected-border-alpha = 1.0
+unselected-border = "#31363A"
+unselected-border-alpha = 1.0
